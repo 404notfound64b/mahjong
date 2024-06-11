@@ -1,10 +1,10 @@
 {
-  "name": "mah",
-  "version": "0.1.4",
+  "name": "mahong-web",
+  "version": "0.1.5",
   "author": "namenotfound web",
   "license": "MIT",
   "description": "Enjoy a classic Solitaire Mahjong game",
-  "repository": "https://github.com/ffalt/mah.git",
+  "repository": "https://github.com/the-eagle-nest/mahjong.git",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
