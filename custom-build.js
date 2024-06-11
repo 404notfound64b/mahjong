@@ -1,7 +1,7 @@
 const fs = require('fs');
 const webpack = require('webpack');
 const pkg = require('./package.json');
-let appName = 'Mah Jong';
+let appName = 'Mahjong Web';
 let editor = false;
 let mobile = false;
 let kyodai = false;

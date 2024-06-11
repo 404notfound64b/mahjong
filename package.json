@@ -1,9 +1,9 @@
 {
   "name": "mah",
-  "version": "1.7.4",
-  "author": "ffalt",
+  "version": "0.1.4",
+  "author": "namenotfound web",
   "license": "MIT",
-  "description": "a html5 mahjong solitaire game",
+  "description": "Enjoy a classic Solitaire Mahjong game",
   "repository": "https://github.com/ffalt/mah.git",
   "scripts": {
     "ng": "ng",
@@ -16,7 +16,7 @@
     "build:deploy-release": "npm run build:prebuild && ng build --configuration production --aot --base-href \".\"",
     "build:capacitor": "npm run build:prebuild && ng build --configuration capacitor --aot --base-href \".\"",
     "build:deploy-root": "npm run build:prebuild && ng build --configuration production --aot --base-href \"/\"",
-    "build:deploy-ghpages": "npm run build:prebuild && ng build --configuration production --aot --base-href \"https://ffalt.github.io/mah/\"",
+    "build:deploy-ghpages": "npm run build:prebuild && ng build --configuration production --aot --base-href \"https://the-eagle-nest.github.io/mah/\"",
     "build:releaselog": "conventional-changelog -p angular -r 2 -o RELEASELOG.md",
     "explore-map-explorer": "source-map-explorer dist/**/*.js",
     "explore": "npm run build:analyze:prod && npm run explore-map-explorer",
@@ -88,13 +88,6 @@
     "node": "^18.13.0 || >=20.9.0"
   },
   "contributors": [
-    {
-      "name": "Heimen Stoffels",
-      "url": "https://github.com/Vistaus"
-    },
-    {
-      "name": "Carmen F. B.",
-      "url": "https://github.com/carmenfdezb"
-    }
+    
   ]
 }
