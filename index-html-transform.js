@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 async function customBuildOptions(targetOptions, indexHtmlContent) {
-	let appName = 'Mah Jong';
+	let appName = 'Mahjong Web';
 	if (fs.existsSync('./custom-build-config.json')) {
 		const config = JSON.parse(fs.readFileSync('./custom-build-config.json').toString());
 		appName = config.name || appName;

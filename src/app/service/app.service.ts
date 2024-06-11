@@ -7,7 +7,7 @@ import {LocalstorageService} from './localstorage.service';
 
 @Injectable()
 export class AppService {
-	name: string = 'Mah Jong';
+	name: string = 'Mahjong Web';
 	game: Game;
 	settings: Settings;
 
